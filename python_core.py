@@ -144,5 +144,6 @@ circle_1 = Circle(2)
 print(circle_1.radius)
 print(circle_1.calculate_area())
 
+#git reminder for remote origin master setting: just add .git at the end of the hyperlink
 
 
