@@ -125,7 +125,24 @@ def recursion_example2(m):
         #print(m)
         result = m+recursion_example2(m+2)
         print(result)
-    #else:
-    #    result = 0
+    else:
+        result = 0
     return result
 recursion_example2(0)
+
+#Classes (lambda other day)
+import math
+
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+    
+    def calculate_area(self):
+        return round(math.pi * self.radius ** 2,2)
+
+circle_1 = Circle(2)
+print(circle_1.radius)
+print(circle_1.calculate_area())
+
+
+
