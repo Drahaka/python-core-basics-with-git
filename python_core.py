@@ -146,4 +146,20 @@ print(circle_1.calculate_area())
 
 #git reminder for remote origin master setting: just add .git at the end of the hyperlink
 
+print("####################################LAMBDA###########################################")
+#lambda, cause i never get them right
+#its like calling def add_5_to_it(a)
+lambda_example_1 = lambda a:a +10
+print(lambda_example_1(5))
+#they are basically mini functions, kinda cool
+lambda_example_2 = lambda a,b,c : a+b+c
+print(lambda_example_2(1,2,3))
+#can be used to mudge around with the return of a def func
+def lambdafunc(n):
+    return lambda a:a*n
+#   a               n
+give_to_func = lambdafunc(2)
+give_another_to_func = lambdafunc(3)
+print(give_to_func(12))
+print(give_another_to_func(12))
 
